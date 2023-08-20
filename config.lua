@@ -4,6 +4,7 @@ Config = {}
 Config.FrameworkName = 'framework' -- Framework name (Only if you have changed the name of your es_extended)
 Config.UseCommand = true -- If you want to use a command to open the menu
 Config.UseKey = true -- If you want to use a key to open the menu
+Config.Keys = 'F5' -- Key to open the menu (https://docs.fivem.net/docs/game-references/controls/)
 
 -- Ped List
 -- Exemple:   { name = 'Name', value = 'ped_hash', image = 'https or image.png' }

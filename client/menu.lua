@@ -62,7 +62,5 @@ if Config.UseCommand == true then
 end
 
 if Config.UseKey == true then
-    Keys.Register(Config.Keys, 'vs_pedmenu', 'Show Ped Menu', function()
-        lib.showContext('vs_pedmenu')
-    end)
+    RegisterKeyMapping('pedmenu', 'Ped Menu', 'keyboard', Config.Keys)
 end
