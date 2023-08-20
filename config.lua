@@ -2,7 +2,8 @@ Config = {}
 
 -- QBCore version coming soon!
 Config.FrameworkName = 'framework' -- Framework name (Only if you have changed the name of your es_extended)
-
+Config.UseCommand = true -- If you want to use a command to open the menu
+Config.UseKey = true -- If you want to use a key to open the menu
 
 -- Ped List
 -- Exemple:   { name = 'Name', value = 'ped_hash', image = 'https or image.png' }
